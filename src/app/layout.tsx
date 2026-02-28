@@ -6,6 +6,10 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
+export const metadata = {
+  title: "ReviveX",
+  description: "Affordable smart neuro-rehabilitation system",
+};
 
 export default function RootLayout({
   children,
